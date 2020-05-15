@@ -1,0 +1,5 @@
+[0504/131414.969:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0513/191115.190:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0513/191115.225:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0513/191116.071:ERROR:exception_snapshot_win.cc(98)] thread ID 12392 not found in process
+[0513/191116.071:ERROR:exception_snapshot_win.cc(98)] thread ID 12268 not found in process
