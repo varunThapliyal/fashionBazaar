@@ -8,6 +8,9 @@
     border: 1px solid black;
     margin: 0 7.5px 15px;
     overflow: hidden;
+    @media screen and (max-width:800px){
+      height:200px; 
+    }
    
 
     &:hover{
@@ -28,13 +31,11 @@
 
     &.large{
         height: 380px;
+        @media screen and (max-width:800px){
+          height: 200px;
+        }
     }
-    @media screen and (max-width:800px){
-      height:200px;
-      &.large{
-        height: 200px;
-      }
-    }
+    
   
     &:first-child {
       margin-right: 7.5px;
@@ -68,5 +69,12 @@
         font-weight: lighter;
         font-size: 16px;
       }
+    }
+    @media screen and (max-width:800px){
+      .content{
+      padding: 0 15px;
+      
+      }
+     
     }
   }
