@@ -15,6 +15,7 @@ const Directory=({sections})=>
                   sections.map(({id,title,imageUrl,size,linkUrl})=>
                   (
                       <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} linkUrl={linkUrl} />
+
                   )
                   )
               }

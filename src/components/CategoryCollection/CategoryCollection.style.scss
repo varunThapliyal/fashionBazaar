@@ -1,6 +1,7 @@
 .collection-page {
     display: flex;
     flex-direction: column;
+    
   
     .title {
       font-size: 38px;
@@ -11,9 +12,29 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 10px;
+      @media screen and (max-width:800px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+  }
   
       & .collection-item {
         margin-bottom: 30px;
       }
     }
+     .custom-button{
+      width:80%;
+      opacity: 0.7;
+      position: absolute;
+      top:255px;
+      display: none;
+    }
+    @media screen and (max-width:800px){
+      .custom-button{
+        min-width: unset;
+        opacity: 0.9;
+        display: block;
+        padding: 0px 10px;
+      }
+}
   }

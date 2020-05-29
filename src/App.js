@@ -12,6 +12,7 @@ import {SetCurrentUser} from './redux/user/user.actions';
 import {getTheUserSelector} from './redux/user/user.selector';
 import {createStructuredSelector} from 'reselect';
 import CheckoutPage from './pages/checkout/checkout.component';
+import {GlobalStyle} from './globalStyle';
 
 
 
@@ -54,7 +55,7 @@ class App extends React.Component{
         })
       }
 
-      else{
+      else{    
         setCurrentUser(userAuth)
       }
        
@@ -72,6 +73,7 @@ class App extends React.Component{
 
     return (
       <div>
+        <GlobalStyle/>
         <Header/>
         <Switch>
 

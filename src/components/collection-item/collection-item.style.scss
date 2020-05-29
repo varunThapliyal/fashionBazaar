@@ -21,6 +21,14 @@
       top:255px;
       display: none;
     }
+    @media screen and (max-width:800px){
+      .custom-button{
+        min-width: unset;
+        opacity: 0.9;
+        display: block;
+        padding: 0px 10px;
+      }
+}
   &:hover{
     .image{
       opacity: 0.8;
@@ -29,6 +37,19 @@
       display: flex;
       opacity:0.85;
     }
+  }
+  @media screen and (max-width:800px){
+    width: 40vw;
+    &:hover{
+      .image{
+        opacity: unset;
+      }
+      .custom-button{
+        
+        opacity:unset;
+      }
+    }
+
   }
     .collection-footer {
       width: 100%;

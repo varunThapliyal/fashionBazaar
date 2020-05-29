@@ -43,9 +43,6 @@ if(!userSnapshot.exists){
 }
 return userRef;
 
-
-
-
 }
 
 export const firestore=firebase.firestore();
